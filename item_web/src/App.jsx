@@ -91,7 +91,7 @@ React.useEffect(() => {
             <input className='addeditinput' type="text" value={itemData.price} onChange={handleChange} name='price' id='price' placeholder='Enter Price' />
           </div>
           <button className='addBtn' onClick={handleAddEdit}>{itemData.item_id ? "Update" : "Add"}</button>
-          <button className='cancelBtn'>Cancel</button>
+          <button className='cancelBtn' onClick={clearAll}>Cancel</button>
         </div>
         <input className="searchinput" type="search" value={globalFilter || ""} onChange={e => setGlobalFilter(e.target.value)} name='inputser' id='inputser' placeholder="Search..." />
         <table className='item-table' {...getTableProps()}>
