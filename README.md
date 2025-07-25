@@ -1,3 +1,3 @@
 # Python Full Stack
 
-![Image](https://github.com/user-attachments/assets/c4d654c5-5d79-44e2-b4f9-019945510c15)
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/50b4341d-0c7f-484a-8d28-3cc1a9b79ba9" />
